@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: #060B0F;
+    font-family: sans-serif;
+}
+
+.head {
+    background-color: blue;
+    border: 5px blue solid;
+}
+
+area, area:link, area:hover, area:active, area:focus {
+    background-color: grey;
+    border: 5px #f00 solid;
+   }
+
+
+
+
+   .colol {
+       width: 50vw;
+       margin: 40px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+
+   
+   .heading {
+       font-weight: 900;
+       text-transform: uppercase;
+       font-size: 32px;
+   }
+
+
+
+
+
+
+
+.marharesz ::hover {
+        fill:wheat !important;
+}
+
+.lines {
+    z-index: 4;
+}
+
+
+
+
+.inactive-marharesz {
+    z-index: 2;
+    fill:rgba(0, 0, 0, 0) !important;
+
+
+}
+.active-marharesz {
+    z-index: 2;
+    fill:#C0C0C0 !important;
+    fill-opacity: 1 !important;
+}
+
+#marharesszoveg {
+    color: white;
+}
+
+#teljes-marha {
+    fill: white;
+    stroke: white !important;
+}
